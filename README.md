@@ -1,0 +1,1 @@
+. .venv/bin/activate && rendercv render Jayacharan_R.yaml
