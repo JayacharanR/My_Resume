@@ -12,7 +12,7 @@
 
 - July 2023 – present
 - Vellore
-- Grade: 9.30 /10.00
+-  CGPA : 9.30 / 10.00
 
 ## Achyuta Public School, CBSE, Highschool in Bio-Mat
 
