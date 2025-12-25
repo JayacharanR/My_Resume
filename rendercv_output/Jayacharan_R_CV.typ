@@ -484,7 +484,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Grade: 9.23 \/10.00],)
+    #v(design-highlights-top-margin);#highlights([Grade: 9.30 \/10.00],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
