@@ -3,7 +3,7 @@
 
 #let name = "Jayacharan R"
 #let locale-catalog-page-numbering-style = context { "Jayacharan R - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Dec 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in Jan 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-colors-text = rgb(0, 0, 0)
@@ -515,6 +515,27 @@
 
 
 
+== Projects
+
+
+#two-col-entry(
+  left-content: [
+    #link("https://github.com/JayacharanR/Clean-Backup")[#strong[Clean Backup]] 
+  ],
+  right-content: [
+    Jan 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A pure-Python automation tool that organizes photos and videos by extracting creation-date metadata and sorting them into a Year\/Month folder structure.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Metadata-based organization for images and videos \(including HEIC, JPEG\) with smart fallback to filesystem timestamps when metadata is missing.],[Duplicate-safe file handling with detailed logging.],)
+  ],
+)
+
+
+
 == Experience
 
 
@@ -564,7 +585,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [IEEE Robotics and Automation Society, VIT, Vellore])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed an AI-driven surveillance system using YOLO \(Ultralytics\) and OpenCV for real-time anomaly detection in CCTV footage.],[Developed a working prototype with human movement tracking, anomaly detection, and automated logging.],[Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed an AI-driven surveillance system using YOLO \(Ultralytics\) for real-time anomaly detection in CCTV footage.],[Developed a working prototype with human movement tracking, anomaly detection, and automated logging.],[Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.],)
   ],
 )
 
@@ -634,21 +655,6 @@
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing")[Microsoft Scorecard]])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8")[#strong[Learn Linux]] 
-  ],
-  right-content: [
-    Aug 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Boot.dev])], column-gutter: 0cm)
   ],
 )
 

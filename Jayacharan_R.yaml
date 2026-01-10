@@ -34,6 +34,20 @@ cv:
         summary:
         highlights:
           - 'Grade: AISSCE: 89.6% , AISSE: 98%'
+
+    projects:
+        - name: '[Clean Backup](https://github.com/JayacharanR/Clean-Backup)'
+          date:
+          start_date: 2025-01
+          end_date: present
+          location:
+          summary: 
+            A pure-Python automation tool that organizes photos and videos by extracting
+            creation-date metadata and sorting them into a Year/Month folder structure.
+          highlights:
+            - Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.
+            - Duplicate-safe file handling with detailed logging.
+
     experience:
       - company: 'Blueprint Technologies Pvt Ltd '
         position: '[SAP Analytics Cloud, Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
@@ -61,28 +75,10 @@ cv:
         summary: IEEE Robotics and Automation Society, VIT, Vellore
         date: 2025-01
         highlights:
-          - 'Designed an AI-driven surveillance system using YOLO (Ultralytics) and OpenCV for real-time anomaly detection in CCTV footage.'
+          - 'Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.'
           - 'Developed a working prototype with human movement tracking, anomaly detection, and automated logging.'
           - 'Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.'
 
-    # projects:
-    #   - name: '[Example Project](https://example.com)'
-    #     date:
-    #     start_date: 2024-05
-    #     end_date: present
-    #     location:
-    #     summary: A web application for writing essays
-    #     highlights:
-    #       - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-    #       - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-    #   - name: '[Teaching on Udemy](https://example.com)'
-    #     date: Fall 2023
-    #     start_date:
-    #     end_date:
-    #     location:
-    #     summary:
-    #     highlights:
-    #       - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
     skills:
       - label: Programming
         details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
@@ -105,9 +101,9 @@ cv:
       - name: '[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)'
         date: 2025-10
         summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing)'
-      - name: '[Learn Linux](https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8)'
-        date: 2025-08
-        summary: Boot.dev
+      # - name: '[Learn Linux](https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8)'
+      #   date: 2025-08
+      #   summary: Boot.dev
       
 
     # publications:
@@ -272,5 +268,5 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-12-01'
+  date: '2026-01-01'
   bold_keywords: []

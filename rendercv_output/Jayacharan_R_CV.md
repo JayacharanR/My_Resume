@@ -20,6 +20,14 @@
 - Dindigul, TN, India
 - Grade: AISSCE: 89.6% , AISSE: 98%
 
+# Projects
+
+## [Clean Backup](https://github.com/JayacharanR/Clean-Backup)
+
+- Jan 2025 – present
+- Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.
+- Duplicate-safe file handling with detailed logging.
+
 # Experience
 
 ## Blueprint Technologies Pvt Ltd , [SAP Analytics Cloud, Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)
@@ -43,7 +51,7 @@
 ## [Winner - Roboverse Ideathon 2025](https://www.linkedin.com/in/jayacharan-r/details/honors/)
 
 - Jan 2025
-- Designed an AI-driven surveillance system using YOLO (Ultralytics) and OpenCV for real-time anomaly detection in CCTV footage.
+- Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.
 - Developed a working prototype with human movement tracking, anomaly detection, and automated logging.
 - Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.
 
@@ -66,8 +74,4 @@
 ## [Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)
 
 - Oct 2025
-
-## [Learn Linux](https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8)
-
-- Aug 2025
 
