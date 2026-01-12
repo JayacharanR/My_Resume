@@ -7,8 +7,8 @@ cv:
   social_networks:
     - network: LinkedIn
       username: jayacharan-r
-    # - network: GitHub
-    #   username:
+    - network: GitHub
+      username: JayacharanR
   sections:
     # executive summary:
     #   - Aspiring data science professional with hands-on experience in analytics, and dashboard development using SAP Analytics Cloud. Eager to contribute to impactful, data-driven solutions 
@@ -93,14 +93,14 @@ cv:
       - name: '[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)'
         start_date: 2025-12
         end_date: 2028-12
-        summary: '[AWS Scorecard](https://drive.google.com/file/d/1qXKqK4EEk87zPWriWKTXHJmStY5RwK7o/view?usp=sharing)'
+        # summary: '[AWS Scorecard](https://drive.google.com/file/d/1qXKqK4EEk87zPWriWKTXHJmStY5RwK7o/view?usp=sharing)'
       - name: '[Microsoft Certified: Azure AI Engineer Associate - AI 102](https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7)'
         start_date: 2025-11
         end_date: 2026-11
-        summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1UpfPB-rAeydZ2gPwXfxfknrMRGMv28is/view?usp=sharing)'
+        # summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1UpfPB-rAeydZ2gPwXfxfknrMRGMv28is/view?usp=sharing)'
       - name: '[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)'
         date: 2025-10
-        summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing)'
+        # summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing)'
       # - name: '[Learn Linux](https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8)'
       #   date: 2025-08
       #   summary: Boot.dev
@@ -133,8 +133,8 @@ design:
     size: us-letter
     top_margin: 1.5cm
     bottom_margin: 2cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
+    left_margin: 0.9cm
+    right_margin: 0.9cm
     show_page_numbering: false
     show_last_updated_date: true
   colors:
@@ -163,8 +163,8 @@ design:
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
     connections_font_family: XCharter
-    separator_between_connections: '|'
-    use_icons_for_connections: false
+    separator_between_connections: ' '
+    use_icons_for_connections: true
     # use_urls_as_placeholders_for_connections: true
     # make_connections_links: true
     alignment: center

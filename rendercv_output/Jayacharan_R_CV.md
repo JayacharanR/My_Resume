@@ -4,6 +4,7 @@
 - Email: [jayacharan.2023@vitstudent.ac.in](mailto:jayacharan.2023@vitstudent.ac.in)
 - Location: Pollachi , TN
 - LinkedIn: [jayacharan-r](https://linkedin.com/in/jayacharan-r)
+- GitHub: [JayacharanR](https://github.com/JayacharanR)
 
 
 # Education

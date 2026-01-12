@@ -27,7 +27,7 @@
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
-#let design-header-use-icons-for-connections = false
+#let design-header-use-icons-for-connections = true
 #let design-header-name-font-family = "XCharter"
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
@@ -35,9 +35,9 @@
 #let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
-#let design-header-use-icons-for-connections = false
+#let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
-#let design-header-separator-between-connections = "|"
+#let design-header-separator-between-connections = " "
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
@@ -53,8 +53,8 @@
 #let design-entries-left-and-right-margin = 0cm
 #let design-page-top-margin = 1.5cm
 #let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 1.5cm
-#let design-page-right-margin = 1.5cm
+#let design-page-left-margin = 0.9cm
+#let design-page-right-margin = 0.9cm
 #let design-page-show-last-updated-date = true
 #let design-page-show-page-numbering = false
 #let design-links-underline = false
@@ -460,10 +460,11 @@
 
 // Print connections:
 #let connections-list = (
-  [Pollachi , TN],
-  [#box(original-link("mailto:jayacharan.2023@vitstudent.ac.in")[jayacharan.2023\@vitstudent.ac.in])],
-  [#box(original-link("tel:+91-96550-33521")[096550 33521])],
-  [#box(original-link("https://linkedin.com/in/jayacharan-r")[linkedin.com\/in\/jayacharan-r])],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Pollachi , TN],
+  [#box(original-link("mailto:jayacharan.2023@vitstudent.ac.in")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)jayacharan.2023\@vitstudent.ac.in])],
+  [#box(original-link("tel:+91-96550-33521")[#fa-icon("phone", size: 0.9em) #h(0.05cm)096550 33521])],
+  [#box(original-link("https://linkedin.com/in/jayacharan-r")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)linkedin.com\/in\/jayacharan-r])],
+  [#box(original-link("https://github.com/JayacharanR")[#fa-icon("github", size: 0.9em) #h(0.05cm)github.com\/JayacharanR])],
 )
 #connections(connections-list)
 
@@ -624,7 +625,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://drive.google.com/file/d/1qXKqK4EEk87zPWriWKTXHJmStY5RwK7o/view?usp=sharing")[AWS Scorecard]])], column-gutter: 0cm)
+    
   ],
 )
 
@@ -639,7 +640,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://drive.google.com/file/d/1UpfPB-rAeydZ2gPwXfxfknrMRGMv28is/view?usp=sharing")[Microsoft Scorecard]])], column-gutter: 0cm)
+    
   ],
 )
 
@@ -654,7 +655,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing")[Microsoft Scorecard]])], column-gutter: 0cm)
+    
   ],
 )
 
