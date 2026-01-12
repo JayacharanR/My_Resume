@@ -6,6 +6,7 @@
 #let locale-catalog-last-updated-date-style = "Last updated in Jan 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
+#let design-section-titles-font-size = 1.2em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -31,7 +32,6 @@
 #let design-header-name-font-family = "XCharter"
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
-#let design-header-small-caps-for-name = false
 #let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
@@ -41,7 +41,6 @@
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
-#let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
 #let design-highlights-left-margin = 0cm
 #let design-highlights-vertical-space-between-highlights = 0.19cm
@@ -126,22 +125,13 @@
   )
 }
 #show list: set list(
-  marker: design-highlights-nested-bullet,
-  spacing: design-highlights-vertical-space-between-highlights,
+  marker: design-highlights-bullet,
+  spacing: 0pt,
   indent: 0pt,
   body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
 )
 
 // Entry utilities:
-#let bullet-entry(..content) = {
-  list(
-    ..content,
-    marker: design-highlights-bullet,
-    spacing: 0pt,
-    indent: 0pt,
-    body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
-  )
-}
 #let three-col(
   left-column-width: 1fr,
   middle-column-width: 1fr,
@@ -202,11 +192,7 @@
     size: design-header-name-font-size,
     fill: design-colors-name,
   )
-  #if design-header-small-caps-for-name [
-    #smallcaps(it.body)
-  ] else [
-    #it.body
-  ]
+  #it.body
   // Vertical space after the name
   #v(design-header-vertical-space-between-name-and-connections)
 ]
@@ -257,7 +243,7 @@
         #box(
           [
             #section-title
-            #if design-section-titles-type == "with-partial-line" [
+            #if design-section-titles-type == "with-parial-line" [
               #box(width: 1fr, height: design-section-titles-line-thickness, fill: design-colors-section-titles)
             ] else if design-section-titles-type == "with-full-line" [
 
@@ -462,9 +448,9 @@
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Pollachi , TN],
   [#box(original-link("mailto:jayacharan.2023@vitstudent.ac.in")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)jayacharan.2023\@vitstudent.ac.in])],
-  [#box(original-link("tel:+91-96550-33521")[#fa-icon("phone", size: 0.9em) #h(0.05cm)096550 33521])],
-  [#box(original-link("https://linkedin.com/in/jayacharan-r")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)linkedin.com\/in\/jayacharan-r])],
-  [#box(original-link("https://github.com/JayacharanR")[#fa-icon("github", size: 0.9em) #h(0.05cm)github.com\/JayacharanR])],
+  [#box(original-link("tel:+91-96550-33521")[#fa-icon("phone", size: 0.9em) #h(0.05cm)+91 9655033521])],
+  [#box(original-link("https://linkedin.com/in/jayacharan-r")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)Jayacharan R])],
+  [#box(original-link("https://github.com/JayacharanR")[#fa-icon("github", size: 0.9em) #h(0.05cm)JayacharanR])],
 )
 #connections(connections-list)
 

@@ -25,7 +25,15 @@
     #fa-icon("<<connection["typst_icon"]>>", size: 0.9em) #h(0.05cm)
   ((*- endif -*))
   ((*- if design.header.use_icons_for_connections or not connection["url"] -*))
-    <<connection["placeholder"]|escape_typst_characters>>
+    ((*- if connection["url"] and "tel:" in connection["url"] -*))
+      +91 9655033521
+    ((*- elif connection["url"] and "linkedin.com/in/jayacharan-r" in connection["url"] -*))
+      Jayacharan R
+    ((*- elif connection["url"] and "github.com/JayacharanR" in connection["url"] -*))
+      JayacharanR
+    ((*- else -*))
+      <<connection["placeholder"]|escape_typst_characters>>
+    ((*- endif -*))
   ((*- else -*))
     <<connection["clean_url"]|escape_typst_characters>>
   ((*- endif -*))
