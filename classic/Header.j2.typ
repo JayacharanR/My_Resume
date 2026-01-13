@@ -28,7 +28,7 @@
     ((*- if connection["url"] and "tel:" in connection["url"] -*))
       +91 9655033521
     ((*- elif connection["url"] and "linkedin.com/in/jayacharan-r" in connection["url"] -*))
-      Jayacharan R
+      jayacharan-r
     ((*- elif connection["url"] and "github.com/JayacharanR" in connection["url"] -*))
       JayacharanR
     ((*- else -*))

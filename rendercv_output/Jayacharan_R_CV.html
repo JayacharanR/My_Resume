@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Jayacharan R's CV
+        
     </title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
@@ -39,79 +39,99 @@
 
 <body>
     <article class="markdown-body">
-        <h1>Jayacharan R's CV</h1>
+        <h1>&lt;<cv.name>&gt;'s CV</h1>
+        <p>((<em> if cv.phone </em>))
+        - Phone: &lt;<cv.phone|replace("tel:", "")|replace("-"," ")>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.email </em>))
+        - Email: <a href="mailto:&lt;&lt;cv.email&gt;&gt;">&lt;<cv.email>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.location </em>))
+        - Location: &lt;<cv.location>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.website </em>))
+        - Website: <a href="&lt;&lt;cv.website&gt;&gt;">&lt;<cv.website|replace("https://","")|replace("/","")>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.social_networks </em>))
+            ((<em> for network in cv.social_networks </em>))
+        - &lt;<network.network>&gt;: <a href="&lt;&lt;network.url&gt;&gt;">&lt;<network.username>&gt;</a>
+            ((<em> endfor </em>))
+        ((<em> endif </em>))</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Vellore Institute Of Technology</strong>, BTech in Computer Science (Data Science) -- VelloreJuly 2023 – present</h2>
         <ul>
-        <li>Phone: +91 96550 33521</li>
-        <li>Email: <a href="mailto:jayacharan.2023@vitstudent.ac.in">jayacharan.2023@vitstudent.ac.in</a></li>
-        <li>Location: Pollachi , TN</li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/jayacharan-r">jayacharan-r</a></li>
-        <li>GitHub: <a href="https://github.com/JayacharanR">JayacharanR</a></li>
-        </ul>
-        <h1>Education</h1>
-        <h2>Vellore Institute Of Technology, BTech in Computer Science (Data Science)</h2>
-        <ul>
-        <li>July 2023 – present</li>
-        <li>Vellore</li>
         <li>CGPA : 9.30 / 10.00</li>
         </ul>
-        <h2>Achyuta Public School, CBSE, Highschool in Bio-Mat</h2>
+        <h2><strong>Achyuta Public School, CBSE</strong>, Highschool in Bio-Mat -- Dindigul, TN, IndiaJune 2017 – Apr 2023</h2>
         <ul>
-        <li>June 2017 – Apr 2023</li>
-        <li>Dindigul, TN, India</li>
         <li>Grade: AISSCE: 89.6% , AISSE: 98%</li>
         </ul>
-        <h1>Projects</h1>
-        <h2><a href="https://github.com/JayacharanR/Clean-Backup">Clean Backup</a></h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong><a href="https://github.com/JayacharanR/Clean-Backup">Clean Backup</a></strong></h2>
+        <p>Jan 2025 – present</p>
+        <p>A pure-Python automation tool that organizes photos and videos by extracting creation-date metadata and sorting them into a Year/Month folder structure.</p>
         <ul>
-        <li>Jan 2025 – present</li>
-        <li>Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.</li>
-        <li>Duplicate-safe file handling with detailed logging.</li>
+        <li>
+        <p>Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.</p>
+        </li>
+        <li>
+        <p>Duplicate-safe file handling with detailed logging.</p>
+        </li>
         </ul>
-        <h1>Experience</h1>
-        <h2>Blueprint Technologies Pvt Ltd , <a href="https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158">SAP Analytics Cloud, Intern</a></h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong><a href="https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158">SAP Analytics Cloud, Intern</a></strong>, Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India</h2>
+        <p>May 2025 – July 2025</p>
         <ul>
-        <li>May 2025 – July 2025</li>
-        <li>Bengaluru, KA, India</li>
-        <li>Worked in core analytics concepts including exploratory data analysis, data cleaning, and responsive dashboards in SAP Analytics Cloud advanced dimension-level calculations, enhancing user interactivity and analytical depth.</li>
-        <li>Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.</li>
-        <li>Worked on predictive modeling (linear regression, classification, time series)</li>
+        <li>
+        <p>Worked in core analytics concepts including exploratory data analysis, data cleaning, and responsive dashboards in SAP Analytics Cloud advanced dimension-level calculations, enhancing user interactivity and analytical depth.</p>
+        </li>
+        <li>
+        <p>Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.</p>
+        </li>
+        <li>
+        <p>Worked on predictive modeling (linear regression, classification, time series)</p>
+        </li>
         </ul>
-        <h2>Jol Energy, <a href="https://www.linkedin.com/company/jol-energy/posts/?feedView=all">AI-ML , Intern</a></h2>
+        <h2><strong><a href="https://www.linkedin.com/company/jol-energy/posts/?feedView=all">AI-ML , Intern</a></strong>, Jol Energy -- Vellore, TN, India</h2>
+        <p>Aug 2025 – Nov 2025</p>
         <ul>
-        <li>Aug 2025 – Nov 2025</li>
-        <li>Vellore, TN, India</li>
-        <li>Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.</li>
-        <li>Integrated a Hugging Face (PyTorch) model to perform multi-face detection and emotion classification, achieving real-time inference.</li>
-        <li>Engineered an interactive UI to dynamically overlay bounding boxes, emotion labels, and confidence scores, adding user controls for saving frames and toggling verbose logging</li>
+        <li>
+        <p>Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.</p>
+        </li>
+        <li>
+        <p>Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.</p>
+        </li>
+        <li>
+        <p>Engineered an interactive UI to dynamically overlay bounding boxes, emotion labels, and confidence scores, adding user controls for saving frames and toggling verbose logging</p>
+        </li>
         </ul>
-        <h1>Awards</h1>
-        <h2><a href="https://www.linkedin.com/in/jayacharan-r/details/honors/">Winner - Roboverse Ideathon 2025</a></h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong><a href="https://www.linkedin.com/in/jayacharan-r/details/honors/">Winner - Roboverse Ideathon 2025</a></strong></h2>
+        <p>Jan 2025</p>
+        <p>IEEE Robotics and Automation Society, VIT, Vellore</p>
         <ul>
-        <li>Jan 2025</li>
-        <li>Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.</li>
-        <li>Developed a working prototype with human movement tracking, anomaly detection, and automated logging.</li>
-        <li>Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.</li>
+        <li>
+        <p>Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.</p>
+        </li>
+        <li>
+        <p>Developed a working prototype with human movement tracking, anomaly detection, and automated logging.</p>
+        </li>
+        <li>
+        <p>Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.</p>
+        </li>
         </ul>
-        <h1>Skills</h1>
-        <ul>
-        <li>Programming: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript</li>
-        <li>Operating System: Arch Linux, Windows</li>
-        <li>Software: SAP Analytics Cloud, Excel, Sheets</li>
-        <li>Language: English (Professional proficiency), Tamil (Native proficiency), Japanese &amp; Hindi (Limited proficiency)</li>
-        </ul>
-        <h1>Courses &amp; Certifications</h1>
-        <h2><a href="https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url">AWS Certified Solutions Architect – Associate</a></h2>
-        <ul>
-        <li>Dec 2025 – Dec 2028</li>
-        </ul>
-        <h2><a href="https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7">Microsoft Certified: Azure AI Engineer Associate - AI 102</a></h2>
-        <ul>
-        <li>Nov 2025 – Nov 2026</li>
-        </ul>
-        <h2><a href="https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url">Microsoft Certified: Azure Data Fundamentals - DP 900</a></h2>
-        <ul>
-        <li>Oct 2025</li>
-        </ul>
+        <h1>&lt;<section_title>&gt;</h1>
+        <p><strong>Programming:</strong> Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript</p>
+        <p><strong>Operating System:</strong> Arch Linux, Windows</p>
+        <p><strong>Software:</strong> SAP Analytics Cloud, Excel, Sheets</p>
+        <p><strong>Language:</strong> English (Professional proficiency), Tamil (Native proficiency), Japanese &amp; Hindi (Limited proficiency)</p>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong><a href="https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url">AWS Certified Solutions Architect – Associate</a></strong></h2>
+        <p>Dec 2025 – Dec 2028</p>
+        <h2><strong><a href="https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7">Microsoft Certified: Azure AI Engineer Associate - AI 102</a></strong></h2>
+        <p>Nov 2025 – Nov 2026</p>
+        <h2><strong><a href="https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url">Microsoft Certified: Azure Data Fundamentals - DP 900</a></strong></h2>
+        <p>Oct 2025</p>
     </article>
 </body>
 
