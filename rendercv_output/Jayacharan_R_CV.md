@@ -32,15 +32,15 @@
 
 
 # <<section_title>>
-## **[Clean Backup](https://github.com/JayacharanR/Clean-Backup)**
+## **[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)**
 
 Jan 2025 – present
 
-A pure-Python automation tool that organizes photos and videos by extracting creation-date metadata and sorting them into a Year/Month folder structure.
+Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
 
-- Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.
+- Engineered a CLI tool integrating Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
 
-- Duplicate-safe file handling with detailed logging.
+- Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
 
 
 
@@ -89,7 +89,7 @@ IEEE Robotics and Automation Society, VIT, Vellore
 
 **Operating System:** Arch Linux, Windows
 
-**Software:** SAP Analytics Cloud, Excel, Sheets
+**Software:** SAP Analytics Cloud, Excel, Sheets, Git Version Control
 
 **Language:** English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 

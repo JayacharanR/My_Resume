@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 1,
-    day: 13,
+    day: 21,
   ),
 )
 
@@ -130,7 +130,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/JayacharanR/Clean-Backup")[Clean Backup]]
+    #strong[#link("https://github.com/JayacharanR/Clean-Backup")[Intelligent Media Lifecycle Manager (Python\/Rust)]]
 
   ],
   [
@@ -138,11 +138,11 @@
 
   ],
   main-column-second-row: [
-    #summary[A pure-Python automation tool that organizes photos and videos by extracting creation-date metadata and sorting them into a Year\/Month folder structure.]
+    #summary[Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.]
 
-    - Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.
+    - Engineered a CLI tool integrating Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
 
-    - Duplicate-safe file handling with detailed logging.
+    - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback\/undo.
 
   ],
 )
@@ -216,7 +216,7 @@
 
 #strong[Operating System:] Arch Linux, Windows
 
-#strong[Software:] SAP Analytics Cloud, Excel, Sheets
+#strong[Software:] SAP Analytics Cloud, Excel, Sheets, Git Version Control
 
 #strong[Language:] English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 

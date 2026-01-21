@@ -36,17 +36,16 @@ cv:
           - 'Grade: AISSCE: 89.6% , AISSE: 98%'
 
     projects:
-        - name: '[Clean Backup](https://github.com/JayacharanR/Clean-Backup)'
+        - name: '[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)'
           date:
           start_date: 2025-01
           end_date: present
           location:
           summary: 
-            A pure-Python automation tool that organizes photos and videos by extracting
-            creation-date metadata and sorting them into a Year/Month folder structure.
+            Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
           highlights:
-            - Metadata-based organization for images and videos (including HEIC, JPEG) with smart fallback to filesystem timestamps when metadata is missing.
-            - Duplicate-safe file handling with detailed logging.
+            - Engineered a CLI tool integrating Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
+            - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
 
     experience:
       - company: 'Blueprint Technologies Pvt Ltd '
@@ -81,11 +80,11 @@ cv:
 
     skills:
       - label: Programming
-        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
+        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript 
       - label: Operating System
         details: 'Arch Linux, Windows'
       - label: Software
-        details: 'SAP Analytics Cloud, Excel, Sheets'
+        details: 'SAP Analytics Cloud, Excel, Sheets, Git Version Control'
       - label: Language
         details: 'English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)'
       
