@@ -142,7 +142,7 @@
   main-column-second-row: [
     #summary[Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.]
 
-    - Engineered a CLI tool integrating Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
+    - Engineered a CLI tool with Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
 
     - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback\/undo.
 
@@ -218,7 +218,7 @@
 
 #strong[Operating System:] Arch Linux, Windows
 
-#strong[Software:] SAP Analytics Cloud, Excel, Sheets, Git Version Control
+#strong[Software:] SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture
 
 #strong[Language:] English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 
