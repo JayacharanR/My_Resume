@@ -818,8 +818,8 @@ class Templates(BaseModelWithoutExtraKeys):
     )
 
 
-class CustomengineeringTheme(BaseModelWithoutExtraKeys):
-    theme: Literal["customengineering"] = "customengineering"
+class EngineeringResumesTheme(BaseModelWithoutExtraKeys):
+    theme: Literal["engineeringresumes"] = "engineeringresumes"
     page: Page = pydantic.Field(default_factory=Page)
     colors: Colors = pydantic.Field(default_factory=Colors)
     typography: Typography = pydantic.Field(default_factory=Typography)

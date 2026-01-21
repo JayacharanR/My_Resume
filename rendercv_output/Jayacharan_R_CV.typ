@@ -53,7 +53,7 @@
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
-  header-connections-separator: "|",
+  header-connections-separator: " ",
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
@@ -85,12 +85,14 @@
 
 = Jayacharan R
 
+#import "@preview/fontawesome:0.5.0": fa-icon
+
 #connections(
-  [Pollachi , TN],
-  [#link("mailto:jayacharan.2023@vitstudent.ac.in", icon: false, if-underline: false, if-color: false)[jayacharan.2023\@vitstudent.ac.in]],
-  [#link("tel:+91-96550-33521", icon: false, if-underline: false, if-color: false)[096550 33521]],
-  [#link("https://linkedin.com/in/jayacharan-r", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/jayacharan-r]],
-  [#link("https://github.com/JayacharanR", icon: false, if-underline: false, if-color: false)[github.com\/JayacharanR]],
+    [#fa-icon("location-dot")#h(0.2cm)Pollachi , TN],
+    [#fa-icon("envelope")#h(0.2cm)#link("mailto:jayacharan.2023@vitstudent.ac.in", icon: false, if-underline: false, if-color: false)[jayacharan.2023\@vitstudent.ac.in]],
+    [#fa-icon("phone")#h(0.2cm)#link("tel:+91-96550-33521", icon: false, if-underline: false, if-color: false)[096550 33521]],
+    [#fa-icon("linkedin")#h(0.2cm)#link("https://linkedin.com/in/jayacharan-r", icon: false, if-underline: false, if-color: false)[jayacharan-r]],
+    [#fa-icon("github")#h(0.2cm)#link("https://github.com/JayacharanR", icon: false, if-underline: false, if-color: false)[JayacharanR]],
 )
 
 

@@ -27,9 +27,21 @@
   #headline([{{ cv.headline }}])
 
 {% endif %}
+#import "@preview/fontawesome:0.5.0": fa-icon
+
 #connections(
 {% for connection in cv.connections %}
-  [{{ connection }}],
+  {% if "github.com" in connection %}
+    [#fa-icon("github")#h(0.2cm){{ connection|replace("[github.com\\/", "[")|replace("[github.com/", "[") }}],
+  {% elif "linkedin.com" in connection %}
+    [#fa-icon("linkedin")#h(0.2cm){{ connection|replace("[linkedin.com\\/in\\/", "[")|replace("[linkedin.com/in/", "[") }}],
+  {% elif "tel:" in connection %}
+    [#fa-icon("phone")#h(0.2cm){{ connection }}],
+  {% elif "mailto:" in connection %}
+    [#fa-icon("envelope")#h(0.2cm){{ connection }}],
+  {% else %}
+    [#fa-icon("location-dot")#h(0.2cm){{ connection }}],
+  {% endif %}
 {% endfor %}
 )
 {% if cv.photo %}
