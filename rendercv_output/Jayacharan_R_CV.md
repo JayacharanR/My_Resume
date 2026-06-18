@@ -45,7 +45,13 @@ Architected a high-performance CLI tool to organize and deduplicate massive medi
 
 
 # <<section_title>>
-## **[SAP Analytics Cloud, Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)**, Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
+## **[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)**, Tata Consultancy Services - TCS  -- Chennai, TN, India
+
+June 2026 – Aug 2026
+
+
+
+## **[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)**, Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
 
 May 2025 – July 2025
 
@@ -65,16 +71,14 @@ Aug 2025 – Nov 2025
 
 - Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.
 
-- Engineered an interactive UI to dynamically overlay bounding boxes, emotion labels, and confidence scores, adding user controls for saving frames and toggling verbose logging
+- Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.
 
 
 
 # <<section_title>>
-## **[Winner - Roboverse Ideathon 2025](https://www.linkedin.com/in/jayacharan-r/details/honors/)**
+## **[Winner - Roboverse Ideathon 2025, IEEE Robotics and Automation Society, VIT, Vellore](https://www.linkedin.com/in/jayacharan-r/details/honors/)**
 
 Jan 2025
-
-IEEE Robotics and Automation Society, VIT, Vellore
 
 - Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.
 

@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Jayacharan R",
   footer: context { [#emph[Jayacharan R -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7cm,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 1,
-    day: 21,
+    month: 6,
+    day: 18,
   ),
 )
 
@@ -153,7 +153,20 @@
 
 #regular-entry(
   [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud, Intern]], Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/")[AI-ML Intern]], Tata Consultancy Services - TCS  -- Chennai, TN, India
+
+  ],
+  [
+    June 2026 – Aug 2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud Intern]], Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
 
   ],
   [
@@ -184,7 +197,7 @@
 
     - Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.
 
-    - Engineered an interactive UI to dynamically overlay bounding boxes, emotion labels, and confidence scores, adding user controls for saving frames and toggling verbose logging
+    - Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.
 
   ],
 )
@@ -193,7 +206,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/honors/")[Winner - Roboverse Ideathon 2025]]
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/honors/")[Winner - Roboverse Ideathon 2025, IEEE Robotics and Automation Society, VIT, Vellore]]
 
   ],
   [
@@ -201,8 +214,6 @@
 
   ],
   main-column-second-row: [
-    #summary[IEEE Robotics and Automation Society, VIT, Vellore]
-
     - Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.
 
     - Developed a working prototype with human movement tracking, anomaly detection, and automated logging.

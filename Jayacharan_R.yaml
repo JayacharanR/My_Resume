@@ -48,8 +48,16 @@ cv:
             - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
 
     experience:
+      - company: 'Tata Consultancy Services - TCS '
+        position: '[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)' 
+        date:
+        start_date: 2026-06
+        end_date: 2026-08
+        location: Chennai, TN, India
+        # summary:
+        # highlights:
       - company: 'Blueprint Technologies Pvt Ltd '
-        position: '[SAP Analytics Cloud, Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
+        position: '[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
         date:
         start_date: 2025-05
         end_date: 2025-07
@@ -68,10 +76,10 @@ cv:
         highlights:
           - 'Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.'
           - 'Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.'
-          - 'Engineered an interactive UI to dynamically overlay bounding boxes, emotion labels, and confidence scores, adding user controls for saving frames and toggling verbose logging'
+          - 'Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.'
     Awards:
-      - name: '[Winner - Roboverse Ideathon 2025](https://www.linkedin.com/in/jayacharan-r/details/honors/)'
-        summary: IEEE Robotics and Automation Society, VIT, Vellore
+      - name: '[Winner - Roboverse Ideathon 2025, IEEE Robotics and Automation Society, VIT, Vellore](https://www.linkedin.com/in/jayacharan-r/details/honors/)'
+        # summary: 
         date: 2025-01
         highlights:
           - 'Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.'
