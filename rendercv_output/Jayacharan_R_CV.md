@@ -34,7 +34,7 @@
 # <<section_title>>
 ## **[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)**
 
-Jan 2025 – present
+Jan 2026 – present
 
 Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
 
@@ -44,10 +44,20 @@ Architected a high-performance CLI tool to organize and deduplicate massive medi
 
 
 
+## **[WikiMind: Production-Grade Agentic Hybrid RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)**
+
+June 2026 – present
+
+- Architected the pipeline using LangGraph to orchestrate two-stage local retrieval (dense and sparse) over a Qdrant vector database, integrating NeMo Guardrails for LLM middleware and Langfuse for observability and telemetry.
+
+- Engineered advanced retrieval modalities including entity-based Knowledge Graph traversal (spaCy/NetworkX), temporal versioning for time-travel queries, and automated evaluation harnesses measuring Recall@K/MRR, while extending offline inference to mobile environments utilizing ONNX-quantized embeddings and SQLite-vss.
+
+
+
 # <<section_title>>
 ## **[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)**, Tata Consultancy Services - TCS  -- Chennai, TN, India
 
-June 2026 – Aug 2026
+June 2026 – July 2026
 
 - Architected a secure RAG pipeline using FastAPI and LangChain, implementing custom Aegis guardrails to enforce contextual relevance and mitigate prompt injection risks.
 
@@ -59,11 +69,9 @@ June 2026 – Aug 2026
 
 May 2025 – July 2025
 
-- Worked in core analytics concepts including exploratory data analysis, data cleaning, and responsive dashboards in SAP Analytics Cloud advanced dimension-level calculations, enhancing user interactivity and analytical depth.
+- Developed responsive dashboards in SAP Analytics Cloud by conducting exploratory data analysis, cleaning data, and integrating live Google Drive feeds with time-based metrics to enable real-time performance monitoring.
 
-- Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.
-
-- Worked on predictive modeling (linear regression, classification, time series)
+- Implemented predictive models (linear regression, classification, time series) and advanced dimension-level calculations to deepen analytical insights, while successfully resolving geo-mapping issues by debugging latitude-longitude ID conflicts.
 
 
 
@@ -72,20 +80,20 @@ May 2025 – July 2025
 
 Jan 2025
 
-- Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.
+- Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage.
 
-- Developed a working prototype with human movement tracking, anomaly detection, and automated logging.
-
-- Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.
+- Demonstrated scalable crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
 
 
 
 # <<section_title>>
 **Programming:** Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
 
+**AI/ML Frameworks:** PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs),  Hybrid Search, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+
 **Operating System:** Arch Linux, Windows
 
-**Software:** SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture
+**Software:** SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture, Docker
 
 **Language:** English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 

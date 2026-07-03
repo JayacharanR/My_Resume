@@ -38,7 +38,7 @@ cv:
     projects:
         - name: '[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)'
           date:
-          start_date: 2025-01
+          start_date: 2026-01
           end_date: present
           location:
           summary: 
@@ -47,12 +47,22 @@ cv:
             - Engineered a CLI tool with Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
             - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
 
+        - name: '[WikiMind: Production-Grade Agentic Hybrid RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)'
+          date:
+          start_date: 2026-06
+          end_date: present
+          location:
+          summary: 
+            # Engineered a production-grade Agentic Hybrid RAG pipeline and Knowledge Graph engine, utilizing advanced retrieval strategies and guardrails for secure, high-accuracy AI workflows.
+          highlights:
+            - Architected the pipeline using LangGraph to orchestrate two-stage local retrieval (dense and sparse) over a Qdrant vector database, integrating NeMo Guardrails for LLM middleware and Langfuse for observability and telemetry.
+            - Engineered advanced retrieval modalities including entity-based Knowledge Graph traversal (spaCy/NetworkX), temporal versioning for time-travel queries, and automated evaluation harnesses measuring Recall@K/MRR, while extending offline inference to mobile environments utilizing ONNX-quantized embeddings and SQLite-vss.
     experience:
       - company: 'Tata Consultancy Services - TCS '
         position: '[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)' 
         date:
         start_date: 2026-06
-        end_date: 2026-08
+        end_date: 2026-07
         location: Chennai, TN, India
         summary:
         highlights:
@@ -66,9 +76,8 @@ cv:
         location: Bengaluru, KA, India
         summary:
         highlights:
-          - 'Worked in core analytics concepts including exploratory data analysis, data cleaning, and responsive dashboards in SAP Analytics Cloud advanced dimension-level calculations, enhancing user interactivity and analytical depth.'
-          - 'Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.'
-          - 'Worked on predictive modeling (linear regression, classification, time series)'
+          - Developed responsive dashboards in SAP Analytics Cloud by conducting exploratory data analysis, cleaning data, and integrating live Google Drive feeds with time-based metrics to enable real-time performance monitoring.
+          - Implemented predictive models (linear regression, classification, time series) and advanced dimension-level calculations to deepen analytical insights, while successfully resolving geo-mapping issues by debugging latitude-longitude ID conflicts.
       # - company: 'Jol Energy'
       #   position: '[AI-ML , Intern](https://www.linkedin.com/company/jol-energy/posts/?feedView=all)' 
       #   date:
@@ -84,15 +93,14 @@ cv:
         # summary: 
         date: 2025-01
         highlights:
-          - 'Designed an AI-driven surveillance system using YOLO (Ultralytics) for real-time anomaly detection in CCTV footage.'
-          - 'Developed a working prototype with human movement tracking, anomaly detection, and automated logging.'
-          - 'Showcased scalable crime prevention potential with automated monitoring, securityalerts, and behavioral analysis.'
+          - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage.
+          - Demonstrated scalable crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
 
     skills:
       - label: Programming
         details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
       - label: AI/ML Frameworks
-        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning
+        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs),  Hybrid Search, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
       - label: Operating System
         details: 'Arch Linux, Windows'
       - label: Software
@@ -172,5 +180,5 @@ locale:
   years: years
   present: present
 rendercv_settings:
-  date: '2026-01-01'
+  date: '2026-07-01'
   bold_keywords: []
