@@ -1,6 +1,6 @@
 cv:
   name: Jayacharan R
-  location: Pollachi , TN
+  location: Chennai, TN
   email: jayacharan.2023@vitstudent.ac.in
   phone: +91-96550-33521
   website:
@@ -15,39 +15,16 @@ cv:
     # in a dynamic engineering environment, leveraging a blend of technical expertise, analytical thinking, and a continuous learning mindset.
     education:
       - institution: Vellore Institute Of Technology
-        area: Computer Science (Data Science)
-        degree: BTech
+        area: '*Computer Science (Data Science)*'
+        degree: '*B.Tech*'
         # date:
         start_date: 2023-07
         end_date: present
-        location: Vellore
-        # summary:
-        highlights:
-          - ' CGPA : 9.30 / 10.00'
-      - institution: Achyuta Public School, CBSE
-        area: Bio-Mat
-        degree: Highschool
-        date:
-        start_date: 2017-06
-        end_date: 2023-04
-        location: Dindigul, TN, India
-        summary:
-        highlights:
-          - 'Grade: AISSCE: 89.6% , AISSE: 98%'
+        location: '*Vellore* | **CGPA: 9.27**'
+        summary: '**Achyuta Public School, CBSE**, *Highschool in Bio-Mat* -- *Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%** #h(1fr) June 2017 – Apr 2023'
 
     projects:
-        - name: '[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)'
-          date:
-          start_date: 2026-01
-          end_date: present
-          location:
-          summary: 
-            Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
-          highlights:
-            - Engineered a CLI tool with Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
-            - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
-
-        - name: '[WikiMind: Production-Grade Agentic Hybrid RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)'
+        - name: '[WikiMind: End-to-End Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)'
           date:
           start_date: 2026-06
           end_date: present
@@ -57,23 +34,35 @@ cv:
           highlights:
             - Architected the pipeline using LangGraph to orchestrate two-stage local retrieval (dense and sparse) over a Qdrant vector database, integrating NeMo Guardrails for LLM middleware and Langfuse for observability and telemetry.
             - Engineered advanced retrieval modalities including entity-based Knowledge Graph traversal (spaCy/NetworkX), temporal versioning for time-travel queries, and automated evaluation harnesses measuring Recall@K/MRR, while extending offline inference to mobile environments utilizing ONNX-quantized embeddings and SQLite-vss.
+    
+        - name: '[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)'
+          date:
+          start_date: 2026-01
+          end_date: present
+          location:
+          summary: 
+            # Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
+          highlights:
+            - Architected a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
+            - Engineered a high-throughput, multi-core media compression pipeline and orchestrated asynchronous background jobs, paired with a transactional journal system ensuring atomic file operations and complete state rollback.
+
     experience:
-      - company: 'Tata Consultancy Services - TCS '
+      - company: '*Tata Consultancy Services - TCS*'
         position: '[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)' 
         date:
         start_date: 2026-06
         end_date: 2026-07
-        location: Chennai, TN, India
+        location: '*Chennai, TN, India*'
         summary:
         highlights:
         - 'Architected a secure RAG pipeline using FastAPI and LangChain, implementing custom Aegis guardrails to enforce contextual relevance and mitigate prompt injection risks.'
         - 'Established full-stack LLM observability with real-time dashboards, instrumenting execution traces to monitor retrieval latency, token utilization, and generation quality.'
-      - company: 'Blueprint Technologies Pvt Ltd '
+      - company: '*Blueprint Technologies Pvt Ltd*'
         position: '[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
         date:
         start_date: 2025-05
         end_date: 2025-07
-        location: Bengaluru, KA, India
+        location: '*Bengaluru, KA, India*'
         summary:
         highlights:
           - Developed responsive dashboards in SAP Analytics Cloud by conducting exploratory data analysis, cleaning data, and integrating live Google Drive feeds with time-based metrics to enable real-time performance monitoring.
@@ -93,32 +82,24 @@ cv:
         # summary: 
         date: 2025-01
         highlights:
-          - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage.
-          - Demonstrated scalable crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
+          - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage. Demonstrated crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
 
     skills:
-      - label: Programming
-        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
+      - label: Programming & Frameworks
+        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
       - label: AI/ML Frameworks
-        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs),  Hybrid Search, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
-      - label: Operating System
-        details: 'Arch Linux, Windows'
+        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+      # - label: Operating System
+        # details: 'Arch Linux, Windows'
       - label: Software
-        details: 'SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture, Docker'
+        details: 'SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux'
       - label: Language
         details: 'English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)'
       
-    Courses & Certifications:
-      - name: '[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)'
-        start_date: 2025-12
-        end_date: 2028-12
-        # summary: '[AWS Scorecard](https://drive.google.com/file/d/1qXKqK4EEk87zPWriWKTXHJmStY5RwK7o/view?usp=sharing)'
-      - name: '[Microsoft Certified: Azure AI Engineer Associate - AI 102](https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7)'
-        start_date: 2025-11
-        end_date: 2026-11
-        # summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1UpfPB-rAeydZ2gPwXfxfknrMRGMv28is/view?usp=sharing)'
-      - name: '[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)'
-        date: 2025-10
+    Certifications:
+      - '**[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)** #h(1fr) Dec 2025 – Dec 2028'
+      - '**[Microsoft Certified: Azure AI Engineer Associate - AI 102](https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7)** #h(1fr) Nov 2025 – Nov 2026'
+      - '**[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)** #h(1fr) Oct 2025'
         # summary: '[Microsoft Scorecard](https://drive.google.com/file/d/1bONOrFMnmmeMg7V5ICtyZYPSwf_OYEh-/view?usp=sharing)'
       # - name: '[Learn Linux](https://www.boot.dev/certificates/d22b64f4-882f-47ab-b39e-d34231aec6a8)'
       #   date: 2025-08
@@ -150,10 +131,10 @@ design:
   theme: engineeringresumes
   page:
     size: us-letter
-    top_margin: 0.7cm
-    bottom_margin: 0.7cm
-    left_margin: 0.9cm
-    right_margin: 0.9cm
+    top_margin: 0.6cm
+    bottom_margin: 0.6cm
+    left_margin: 0.8cm
+    right_margin: 0.8cm
   colors:
     name: rgb(0, 0, 0)
     connections: rgb(0, 0, 0)
@@ -169,6 +150,8 @@ design:
   section_titles:
     type: with_full_line
     line_thickness: 0.5pt
+    space_above: 0.4cm
+    space_below: 0.4cm
   entries:
     date_and_location_width: 4.15cm
     short_second_row: false

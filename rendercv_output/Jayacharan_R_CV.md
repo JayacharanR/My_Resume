@@ -19,32 +19,14 @@
 ((* endif *))
 
 # <<section_title>>
-## **Vellore Institute Of Technology**, BTech in Computer Science (Data Science) -- VelloreJuly 2023 – present
+## **Vellore Institute Of Technology**, *B.Tech* in *Computer Science (Data Science)* -- *Vellore* | **CGPA: 9.27**July 2023 – present
 
--  CGPA : 9.30 / 10.00
-
-
-
-## **Achyuta Public School, CBSE**, Highschool in Bio-Mat -- Dindigul, TN, IndiaJune 2017 – Apr 2023
-
-- Grade: AISSCE: 89.6% , AISSE: 98%
+**Achyuta Public School, CBSE**, *Highschool in Bio-Mat* -- *Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%** #h(1fr) June 2017 – Apr 2023
 
 
 
 # <<section_title>>
-## **[Intelligent Media Lifecycle Manager (Python/Rust)](https://github.com/JayacharanR/Clean-Backup)**
-
-Jan 2026 – present
-
-Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
-
-- Engineered a CLI tool with Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
-
-- Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback/undo.
-
-
-
-## **[WikiMind: Production-Grade Agentic Hybrid RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)**
+## **[WikiMind: End-to-End Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)**
 
 June 2026 – present
 
@@ -54,8 +36,18 @@ June 2026 – present
 
 
 
+## **[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)**
+
+Jan 2026 – present
+
+- Architected a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
+
+- Engineered a high-throughput, multi-core media compression pipeline and orchestrated asynchronous background jobs, paired with a transactional journal system ensuring atomic file operations and complete state rollback.
+
+
+
 # <<section_title>>
-## **[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)**, Tata Consultancy Services - TCS  -- Chennai, TN, India
+## **[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)**, *Tata Consultancy Services - TCS* -- *Chennai, TN, India*
 
 June 2026 – July 2026
 
@@ -65,7 +57,7 @@ June 2026 – July 2026
 
 
 
-## **[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)**, Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
+## **[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)**, *Blueprint Technologies Pvt Ltd* -- *Bengaluru, KA, India*
 
 May 2025 – July 2025
 
@@ -80,38 +72,22 @@ May 2025 – July 2025
 
 Jan 2025
 
-- Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage.
-
-- Demonstrated scalable crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
+- Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage. Demonstrated crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
 
 
 
 # <<section_title>>
-**Programming:** Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
+**Programming & Frameworks:** Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
 
-**AI/ML Frameworks:** PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs),  Hybrid Search, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+**AI/ML Frameworks:** PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
 
-**Operating System:** Arch Linux, Windows
-
-**Software:** SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture, Docker
+**Software:** SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux
 
 **Language:** English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 
 # <<section_title>>
-## **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)**
+**[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)** #h(1fr) Dec 2025 – Dec 2028
 
-Dec 2025 – Dec 2028
+**[Microsoft Certified: Azure AI Engineer Associate - AI 102](https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7)** #h(1fr) Nov 2025 – Nov 2026
 
-
-
-## **[Microsoft Certified: Azure AI Engineer Associate - AI 102](https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7)**
-
-Nov 2025 – Nov 2026
-
-
-
-## **[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)**
-
-Oct 2025
-
-
+**[Microsoft Certified: Azure Data Fundamentals - DP 900](https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url)** #h(1fr) Oct 2025

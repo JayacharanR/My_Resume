@@ -8,10 +8,10 @@
   top-note: [ #emph[Last updated in July 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
-  page-top-margin: 0.7cm,
-  page-bottom-margin: 0.7cm,
-  page-left-margin: 0.9cm,
-  page-right-margin: 0.9cm,
+  page-top-margin: 0.6cm,
+  page-bottom-margin: 0.6cm,
+  page-left-margin: 0.8cm,
+  page-right-margin: 0.8cm,
   page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -57,8 +57,8 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
-  section-titles-space-below: 0.3cm,
+  section-titles-space-above: 0.4cm,
+  section-titles-space-below: 0.4cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
   sections-space-between-regular-entries: 0.42cm,
@@ -88,7 +88,7 @@
 #import "@preview/fontawesome:0.5.0": fa-icon
 
 #connections(
-    [#fa-icon("location-dot")#h(0.2cm)Pollachi , TN],
+    [#fa-icon("location-dot")#h(0.2cm)Chennai, TN],
     [#fa-icon("envelope")#h(0.2cm)#link("mailto:jayacharan.2023@vitstudent.ac.in", icon: false, if-underline: false, if-color: false)[jayacharan.2023\@vitstudent.ac.in]],
     [#fa-icon("phone")#h(0.2cm)#link("tel:+91-96550-33521", icon: false, if-underline: false, if-color: false)[096550 33521]],
     [#fa-icon("linkedin")#h(0.2cm)#link("https://linkedin.com/in/jayacharan-r", icon: false, if-underline: false, if-color: false)[jayacharan-r]],
@@ -100,7 +100,7 @@
 
 #education-entry(
   [
-    #strong[Vellore Institute Of Technology], BTech in Computer Science (Data Science) -- Vellore
+    #strong[Vellore Institute Of Technology], #emph[B.Tech] in #emph[Computer Science (Data Science)] -- #emph[Vellore] | #strong[CGPA: 9.27]
 
   ],
   [
@@ -108,22 +108,7 @@
 
   ],
   main-column-second-row: [
-    -  CGPA : 9.30 \/ 10.00
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Achyuta Public School, CBSE], Highschool in Bio-Mat -- Dindigul, TN, India
-
-  ],
-  [
-    June 2017 – Apr 2023
-
-  ],
-  main-column-second-row: [
-    - Grade: AISSCE: 89.6\% , AISSE: 98\%
+    #summary[#strong[Achyuta Public School, CBSE], #emph[Highschool in Bio-Mat] -- #emph[Dindigul, TN] | #strong[AISSCE: 89.6\%, AISSE: 98\%] #h(1fr) June 2017 – Apr 2023]
 
   ],
 )
@@ -132,26 +117,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/JayacharanR/Clean-Backup")[Intelligent Media Lifecycle Manager (Python\/Rust)]]
-
-  ],
-  [
-    Jan 2026 – present
-
-  ],
-  main-column-second-row: [
-    #summary[Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.]
-
-    - Engineered a CLI tool with Rust-accelerated Perceptual Hashing (pHash) to detect visual duplicates robust to edits and resizing.
-
-    - Implemented a journaled transaction system that logs file operations to JSON, enabling atomic execution and complete state rollback\/undo.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline")[WikiMind: Production-Grade Agentic Hybrid RAG & Knowledge Engine]]
+    #strong[#link("https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline")[WikiMind: End-to-End Agentic RAG & Knowledge Engine]]
 
   ],
   [
@@ -166,11 +132,28 @@
   ],
 )
 
+#regular-entry(
+  [
+    #strong[#link("https://github.com/JayacharanR/Clean-Backup")[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine]]
+
+  ],
+  [
+    Jan 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Architected a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
+
+    - Engineered a high-throughput, multi-core media compression pipeline and orchestrated asynchronous background jobs, paired with a transactional journal system ensuring atomic file operations and complete state rollback.
+
+  ],
+)
+
 == Experience
 
 #regular-entry(
   [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/")[AI-ML Intern]], Tata Consultancy Services - TCS  -- Chennai, TN, India
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/")[AI-ML Intern]], #emph[Tata Consultancy Services - TCS] -- #emph[Chennai, TN, India]
 
   ],
   [
@@ -187,7 +170,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud Intern]], Blueprint Technologies Pvt Ltd  -- Bengaluru, KA, India
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud Intern]], #emph[Blueprint Technologies Pvt Ltd] -- #emph[Bengaluru, KA, India]
 
   ],
   [
@@ -214,62 +197,25 @@
 
   ],
   main-column-second-row: [
-    - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage.
-
-    - Demonstrated scalable crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
+    - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage. Demonstrated crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
 
   ],
 )
 
 == Skills
 
-#strong[Programming:] Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
+#strong[Programming & Frameworks:] Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
 
-#strong[AI\/ML Frameworks:] PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs),  Hybrid Search, Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+#strong[AI\/ML Frameworks:] PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
 
-#strong[Operating System:] Arch Linux, Windows
-
-#strong[Software:] SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture, Docker
+#strong[Software:] SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux
 
 #strong[Language:] English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
 
-== Courses & Certifications
+== Certifications
 
-#regular-entry(
-  [
-    #strong[#link("https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url")[AWS Certified Solutions Architect – Associate]]
+#strong[#link("https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url")[AWS Certified Solutions Architect – Associate]] #h(1fr) Dec 2025 – Dec 2028
 
-  ],
-  [
-    Dec 2025 – Dec 2028
+#strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7")[Microsoft Certified: Azure AI Engineer Associate - AI 102]] #h(1fr) Nov 2025 – Nov 2026
 
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7")[Microsoft Certified: Azure AI Engineer Associate - AI 102]]
-
-  ],
-  [
-    Nov 2025 – Nov 2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url")[Microsoft Certified: Azure Data Fundamentals - DP 900]]
-
-  ],
-  [
-    Oct 2025
-
-  ],
-  main-column-second-row: [
-  ],
-)
+#strong[#link("https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url")[Microsoft Certified: Azure Data Fundamentals - DP 900]] #h(1fr) Oct 2025
