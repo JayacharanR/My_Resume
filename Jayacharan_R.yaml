@@ -54,8 +54,10 @@ cv:
         start_date: 2026-06
         end_date: 2026-08
         location: Chennai, TN, India
-        # summary:
-        # highlights:
+        summary:
+        highlights:
+        - 'Architected a secure RAG pipeline using FastAPI and LangChain, implementing custom Aegis guardrails to enforce contextual relevance and mitigate prompt injection risks.'
+        - 'Established full-stack LLM observability with real-time dashboards, instrumenting execution traces to monitor retrieval latency, token utilization, and generation quality.'
       - company: 'Blueprint Technologies Pvt Ltd '
         position: '[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
         date:
@@ -67,16 +69,16 @@ cv:
           - 'Worked in core analytics concepts including exploratory data analysis, data cleaning, and responsive dashboards in SAP Analytics Cloud advanced dimension-level calculations, enhancing user interactivity and analytical depth.'
           - 'Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.'
           - 'Worked on predictive modeling (linear regression, classification, time series)'
-      - company: 'Jol Energy'
-        position: '[AI-ML , Intern](https://www.linkedin.com/company/jol-energy/posts/?feedView=all)' 
-        date:
-        start_date: 2025-08
-        end_date: 2025-11
-        location: Vellore, TN, India
-        highlights:
-          - 'Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.'
-          - 'Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.'
-          - 'Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.'
+      # - company: 'Jol Energy'
+      #   position: '[AI-ML , Intern](https://www.linkedin.com/company/jol-energy/posts/?feedView=all)' 
+      #   date:
+      #   start_date: 2025-08
+      #   end_date: 2025-11
+      #   location: Vellore, TN, India
+      #   highlights:
+      #     - 'Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.'
+      #     - 'Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.'
+      #     - 'Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.'
     Awards:
       - name: '[Winner - Roboverse Ideathon 2025, IEEE Robotics and Automation Society, VIT, Vellore](https://www.linkedin.com/in/jayacharan-r/details/honors/)'
         # summary: 
@@ -88,11 +90,13 @@ cv:
 
     skills:
       - label: Programming
-        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript 
+        details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JavaScript
+      - label: AI/ML Frameworks
+        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning
       - label: Operating System
         details: 'Arch Linux, Windows'
       - label: Software
-        details: 'SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture'
+        details: 'SAP Analytics Cloud, Excel, Sheets, Git Version Control, AWS Architecture, Docker'
       - label: Language
         details: 'English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)'
       

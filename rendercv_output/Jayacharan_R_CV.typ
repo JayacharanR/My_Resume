@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Jayacharan R",
   footer: context { [#emph[Jayacharan R -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in July 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7cm,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 18,
+    month: 7,
+    day: 3,
   ),
 )
 
@@ -161,6 +161,10 @@
 
   ],
   main-column-second-row: [
+    - Architected a secure RAG pipeline using FastAPI and LangChain, implementing custom Aegis guardrails to enforce contextual relevance and mitigate prompt injection risks.
+
+    - Established full-stack LLM observability with real-time dashboards, instrumenting execution traces to monitor retrieval latency, token utilization, and generation quality.
+
   ],
 )
 
@@ -179,25 +183,6 @@
     - Integrated live data from Google Drive and implemented time-based metrics, enabling real-time performance monitoring for trend analysis and resolved geo-mapping issues by debugging latitude-longitude ID conflicts.
 
     - Worked on predictive modeling (linear regression, classification, time series)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://www.linkedin.com/company/jol-energy/posts/?feedView=all")[AI-ML , Intern]], Jol Energy -- Vellore, TN, India
-
-  ],
-  [
-    Aug 2025 – Nov 2025
-
-  ],
-  main-column-second-row: [
-    - Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.
-
-    - Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.
-
-    - Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.
 
   ],
 )
