@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 7,
-    day: 4,
+    day: 8,
   ),
 )
 
@@ -214,8 +214,8 @@
 
 == Certifications
 
-#strong[#link("https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url")[AWS Certified Solutions Architect – Associate]] #h(1fr) Dec 2025 – Dec 2028
+#strong[#link("https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url")[AWS Certified Solutions Architect – Associate]] #h(1fr) Dec 2025
 
-#strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7")[Microsoft Certified: Azure AI Engineer Associate - AI 102]] #h(1fr) Nov 2025 – Nov 2026
+#strong[#link("https://learn.microsoft.com/api/credentials/share/en-us/JayacharanR-7249/B876E2612E8DCA57?sharingId=A6C2B44CC1F755E7")[Microsoft Certified: Azure AI Engineer Associate - AI 102]] #h(1fr) Nov 2025
 
 #strong[#link("https://www.credly.com/badges/cabb3dd2-fe21-4440-ac8e-785dcd4c8be0/public_url")[Microsoft Certified: Azure Data Fundamentals - DP 900]] #h(1fr) Oct 2025
