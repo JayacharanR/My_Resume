@@ -43,7 +43,7 @@ cv:
           summary: 
             # Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
           highlights:
-            - Architected a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
+            - Implemented a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
             - Engineered a high-throughput, multi-core media compression pipeline and orchestrated asynchronous background jobs, paired with a transactional journal system ensuring atomic file operations and complete state rollback.
 
     experience:
