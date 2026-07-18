@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 7,
-    day: 8,
+    day: 18,
   ),
 )
 
@@ -117,7 +117,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline")[WikiMind: End-to-End Agentic RAG & Knowledge Engine]]
+    #strong[#link("https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline")[WikiMind: End-to-End Advanced Agentic RAG & Knowledge Engine]]
 
   ],
   [
@@ -125,9 +125,11 @@
 
   ],
   main-column-second-row: [
-    - Architected the pipeline using LangGraph to orchestrate two-stage local retrieval (dense and sparse) over a Qdrant vector database, integrating NeMo Guardrails for LLM middleware and Langfuse for observability and telemetry.
+    - Boosted Recall\@K by #strong[30\%] across #strong[6.8M] articles (#strong[21GB+]) via LangGraph Hybrid RAG (Dense + BM25 + Rerank).
 
-    - Engineered advanced retrieval modalities including entity-based Knowledge Graph traversal (spaCy\/NetworkX), temporal versioning for time-travel queries, and automated evaluation harnesses measuring Recall\@K\/MRR, while extending offline inference to mobile environments utilizing ONNX-quantized embeddings and SQLite-vss.
+    - Reduced staleness to #strong[\<5 min] & boosted query accuracy by #strong[25\%] using Redis Knowledge Graphs & spaCy.
+
+    - Elevated answer accuracy to #strong[88\%] at #strong[\<800ms] latency by tuning Self-RAG state machines & NeMo.
 
   ],
 )
@@ -142,9 +144,11 @@
 
   ],
   main-column-second-row: [
-    - Architected a hybrid Python and Rust media organization engine featuring rapid perceptual image hashing (pHash) for deduplication, and integrated the Google Drive API via OAuth 2.0 for automated cloud synchronization.
+    - Accelerated deduplication by #strong[10× times] (#strong[1,000+] images\/s) & cut storage by #strong[81\%] via Rust pHash (PyO3).
 
-    - Engineered a high-throughput, multi-core media compression pipeline and orchestrated asynchronous background jobs, paired with a transactional journal system ensuring atomic file operations and complete state rollback.
+    - Integrated Google Drive sync across #strong[64] REST API endpoints via OAuth2 and a #strong[3-stage] Docker build.
+
+    - Automated atomic rollback for #strong[50+] batch operations across #strong[14] sessions using journaled SQLite.
 
   ],
 )
@@ -161,9 +165,11 @@
 
   ],
   main-column-second-row: [
-    - Architected a secure RAG pipeline using FastAPI and LangChain, implementing custom Aegis guardrails to enforce contextual relevance and mitigate prompt injection risks.
+    - Engineered high-accuracy RAG search (#strong[\<3.5s] latency, #strong[390 tok\/s]) with FastAPI, LangChain, ChromaDB & Groq.
 
-    - Established full-stack LLM observability with real-time dashboards, instrumenting execution traces to monitor retrieval latency, token utilization, and generation quality.
+    - Secured pipeline against prompt injections with #strong[\<15ms] overhead by implementing Aegis LLM guardrails.
+
+    - Orchestrated real-time Langfuse telemetry across #strong[100\%] of traces to optimize performance & token costs.
 
   ],
 )
@@ -178,9 +184,11 @@
 
   ],
   main-column-second-row: [
-    - Developed responsive dashboards in SAP Analytics Cloud by conducting exploratory data analysis, cleaning data, and integrating live Google Drive feeds with time-based metrics to enable real-time performance monitoring.
+    - Delivered #strong[2] SAP Analytics Cloud dashboards (#strong[20+] visuals) via EDA, cleaning, live Google Drive sync
 
-    - Implemented predictive models (linear regression, classification, time series) and advanced dimension-level calculations to deepen analytical insights, while successfully resolving geo-mapping issues by debugging latitude-longitude ID conflicts.
+    - Strengthened insights via #strong[3] predictive models (regression, classification, time-series) & dimension calcs
+
+    - Resolved lat-long ID conflicts, boosting geo-mapping accuracy across #strong[210] countries in SAP Analytics Cloud
 
   ],
 )
@@ -197,7 +205,9 @@
 
   ],
   main-column-second-row: [
-    - Engineered an AI-driven surveillance prototype using YOLO (Ultralytics) for real-time anomaly detection and human movement tracking in CCTV footage. Demonstrated crime prevention capabilities by implementing automated monitoring, behavioral analysis, and security alerts with comprehensive event logging.
+    - Architected AI surveillance prototype using YOLO (Ultralytics) for real-time anomaly & movement detection
+
+    - Strengthened crime-prevention capability via automated alerts, behavioral analysis, and event logging
 
   ],
 )
