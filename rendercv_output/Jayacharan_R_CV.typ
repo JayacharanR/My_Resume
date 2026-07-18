@@ -13,7 +13,7 @@
   page-left-margin: 0.8cm,
   page-right-margin: 0.8cm,
   page-show-footer: false,
-  page-show-top-note: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -91,8 +91,8 @@
     [#fa-icon("location-dot")#h(0.2cm)Chennai, TN],
     [#fa-icon("envelope")#h(0.2cm)#link("mailto:jayacharan.2023@vitstudent.ac.in", icon: false, if-underline: false, if-color: false)[jayacharan.2023\@vitstudent.ac.in]],
     [#fa-icon("phone")#h(0.2cm)#link("tel:+91-96550-33521", icon: false, if-underline: false, if-color: false)[096550 33521]],
-    [#fa-icon("linkedin")#h(0.2cm)#link("https://linkedin.com/in/jayacharan-r", icon: false, if-underline: false, if-color: false)[jayacharan-r]],
-    [#fa-icon("github")#h(0.2cm)#link("https://github.com/JayacharanR", icon: false, if-underline: false, if-color: false)[JayacharanR]],
+    [#fa-icon("linkedin")#h(0.2cm)#link("https://linkedin.com/in/linkedin.com/in/jayacharan-r", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/jayacharan-r]],
+    [#fa-icon("github")#h(0.2cm)#link("https://github.com/github.com/JayacharanR", icon: false, if-underline: false, if-color: false)[github.com\/JayacharanR]],
 )
 
 
@@ -108,7 +108,59 @@
 
   ],
   main-column-second-row: [
-    #summary[#strong[Achyuta Public School, CBSE], #emph[Highschool in Bio-Mat] -- #emph[Dindigul, TN] | #strong[AISSCE: 89.6\%, AISSE: 98\%] #h(1fr) June 2017 – Apr 2023]
+  ],
+)
+
+#v(-0.6cm)
+#education-entry(
+  [
+    #strong[Achyuta Public School, CBSE], #emph[High School] in #emph[Bio-Mat] -- #emph[Dindigul, TN] | #strong[AISSCE: 89.6\%, AISSE: 98\%]
+
+  ],
+  [
+    June 2017 – Apr 2023
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+== Experience
+
+#regular-entry(
+  [
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/")[AI-ML Intern]], #emph[Tata Consultancy Services - TCS] -- #emph[Chennai, TN, India]
+
+  ],
+  [
+    June 2026 – July 2026
+
+  ],
+  main-column-second-row: [
+    - Engineered high-accuracy RAG search (#strong[\<3.5s] latency, #strong[390 tok\/s]) with FastAPI, LangChain, ChromaDB & Groq.
+
+    - Secured pipeline against prompt injections with #strong[\<15ms] overhead by implementing Aegis LLM guardrails.
+
+    - Orchestrated real-time Langfuse telemetry across #strong[100\%] of traces to optimize performance & token costs.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud Intern]], #emph[Blueprint Technologies Pvt Ltd] -- #emph[Bengaluru, KA, India]
+
+  ],
+  [
+    May 2025 – July 2025
+
+  ],
+  main-column-second-row: [
+    - Delivered #strong[2] SAP Analytics Cloud dashboards (#strong[20+] visuals) via Exploratory Data Analysis (EDA), cleaning, live Google Drive sync
+
+    - Strengthened insights via #strong[3] predictive models (regression, classification, time-series) & dimensional modeling
+
+    - Resolved lat-long ID conflicts, boosting geo-mapping accuracy across #strong[210] countries in SAP Analytics Cloud
 
   ],
 )
@@ -144,51 +196,11 @@
 
   ],
   main-column-second-row: [
-    - Accelerated deduplication by #strong[10× times] (#strong[1,000+] images\/s) & cut storage by #strong[81\%] via Rust pHash (PyO3).
+    - Accelerated deduplication by #strong[10×] (#strong[1,000+] images\/s) & cut storage by #strong[81\%] via Rust pHash (PyO3).
 
     - Integrated Google Drive sync across #strong[64] REST API endpoints via OAuth2 and a #strong[3-stage] Docker build.
 
     - Automated atomic rollback for #strong[50+] batch operations across #strong[14] sessions using journaled SQLite.
-
-  ],
-)
-
-== Experience
-
-#regular-entry(
-  [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/")[AI-ML Intern]], #emph[Tata Consultancy Services - TCS] -- #emph[Chennai, TN, India]
-
-  ],
-  [
-    June 2026 – July 2026
-
-  ],
-  main-column-second-row: [
-    - Engineered high-accuracy RAG search (#strong[\<3.5s] latency, #strong[390 tok\/s]) with FastAPI, LangChain, ChromaDB & Groq.
-
-    - Secured pipeline against prompt injections with #strong[\<15ms] overhead by implementing Aegis LLM guardrails.
-
-    - Orchestrated real-time Langfuse telemetry across #strong[100\%] of traces to optimize performance & token costs.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158")[SAP Analytics Cloud Intern]], #emph[Blueprint Technologies Pvt Ltd] -- #emph[Bengaluru, KA, India]
-
-  ],
-  [
-    May 2025 – July 2025
-
-  ],
-  main-column-second-row: [
-    - Delivered #strong[2] SAP Analytics Cloud dashboards (#strong[20+] visuals) via EDA, cleaning, live Google Drive sync
-
-    - Strengthened insights via #strong[3] predictive models (regression, classification, time-series) & dimension calcs
-
-    - Resolved lat-long ID conflicts, boosting geo-mapping accuracy across #strong[210] countries in SAP Analytics Cloud
 
   ],
 )
@@ -216,11 +228,11 @@
 
 #strong[Programming & Frameworks:] Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
 
-#strong[AI\/ML Frameworks:] PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+#strong[AI\/ML Frameworks:] PyTorch, LangChain, Langfuse, Retrieval-Augmented Generation (RAG), Large Language Models (LLM) Observability, LLM Guardrails, Quantization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
 
 #strong[Software:] SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux
 
-#strong[Language:] English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
+#strong[Soft Skills:] Problem Solving, Team Collaboration, Adaptability, Time Management, Critical Thinking
 
 == Certifications
 

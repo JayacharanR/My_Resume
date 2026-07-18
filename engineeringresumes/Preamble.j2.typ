@@ -13,7 +13,7 @@
   page-left-margin: {{ design.page.left_margin }},
   page-right-margin: {{ design.page.right_margin }},
   page-show-footer: {{ design.page.show_footer|lower }},
-  page-show-top-note: {{ design.page.show_top_note|lower }},
+  page-show-top-note: false,
   colors-body: {{ design.colors.body.as_rgb() }},
   colors-name: {{ design.colors.name.as_rgb() }},
   colors-headline: {{ design.colors.headline.as_rgb() }},

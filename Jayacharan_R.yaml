@@ -6,9 +6,9 @@ cv:
   website:
   social_networks:
     - network: LinkedIn
-      username: jayacharan-r
+      username: linkedin.com/in/jayacharan-r
     - network: GitHub
-      username: JayacharanR
+      username: github.com/JayacharanR
   sections:
     # executive summary:
     #   - Aspiring data science professional with hands-on experience in analytics, and dashboard development using SAP Analytics Cloud. Eager to contribute to impactful, data-driven solutions 
@@ -17,41 +17,21 @@ cv:
       - institution: Vellore Institute Of Technology
         area: '*Computer Science (Data Science)*'
         degree: '*B.Tech*'
-        # date:
         start_date: 2023-07
         end_date: present
         location: '*Vellore* | **CGPA: 9.27**'
-        summary: '**Achyuta Public School, CBSE**, *Highschool in Bio-Mat* -- *Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%** #h(1fr) June 2017 – Apr 2023'
-
-    projects:
-        - name: '[WikiMind: End-to-End Advanced Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)'
-          date:
-          start_date: 2026-06
-          end_date: present
-          location:
-          summary: 
-            # Engineered a production-grade Agentic Hybrid RAG pipeline and Knowledge Graph engine, utilizing advanced retrieval strategies and guardrails for secure, high-accuracy AI workflows.
-          highlights:
-            - 'Boosted Recall@K by **30%** across **6.8M** articles (**21GB+**) via LangGraph Hybrid RAG (Dense + BM25 + Rerank).'
-            - 'Reduced staleness to **<5 min** & boosted query accuracy by **25%** using Redis Knowledge Graphs & spaCy.'
-            - 'Elevated answer accuracy to **88%** at **<800ms** latency by tuning Self-RAG state machines & NeMo.'
-    
-        - name: '[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)'
-          date:
-          start_date: 2026-01
-          end_date: present
-          location:
-          summary: 
-            # Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
-          highlights:
-            - 'Accelerated deduplication by **10× times** (**1,000+** images/s) & cut storage by **81%** via Rust pHash (PyO3).'
-            - 'Integrated Google Drive sync across **64** REST API endpoints via OAuth2 and a **3-stage** Docker build.'
-            - 'Automated atomic rollback for **50+** batch operations across **14** sessions using journaled SQLite.'
+        # highlights:
+        #   - 'Relevant Coursework: Data Structures, Algorithms, Linear Algebra, Machine Learning, Cloud Computing, Statistical Modeling'
+      - institution: Achyuta Public School, CBSE
+        area: '*Bio-Mat*'
+        degree: '*High School*'
+        start_date: 2017-06
+        end_date: 2023-04
+        location: '*Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%**'
 
     experience:
       - company: '*Tata Consultancy Services - TCS*'
         position: '[AI-ML Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/)' 
-        date:
         start_date: 2026-06
         end_date: 2026-07
         location: '*Chennai, TN, India*'
@@ -62,14 +42,13 @@ cv:
         - 'Orchestrated real-time Langfuse telemetry across **100%** of traces to optimize performance & token costs.'
       - company: '*Blueprint Technologies Pvt Ltd*'
         position: '[SAP Analytics Cloud Intern](https://www.linkedin.com/in/jayacharan-r/details/experience/1751543949426/single-media-viewer/?profileId=ACoAAEdSV3MBfyjLYwsDt4rUTvxD4YvS4JxR158)' 
-        date:
         start_date: 2025-05
         end_date: 2025-07
         location: '*Bengaluru, KA, India*'
         summary:
         highlights:
-          - 'Delivered **2** SAP Analytics Cloud dashboards (**20+** visuals) via EDA, cleaning, live Google Drive sync'
-          - 'Strengthened insights via **3** predictive models (regression, classification, time-series) & dimension calcs'
+          - 'Delivered **2** SAP Analytics Cloud dashboards (**20+** visuals) via Exploratory Data Analysis (EDA), cleaning, live Google Drive sync'
+          - 'Strengthened insights via **3** predictive models (regression, classification, time-series) & dimensional modeling'
           - 'Resolved lat-long ID conflicts, boosting geo-mapping accuracy across **210** countries in SAP Analytics Cloud'
       # - company: 'Jol Energy'
       #   position: '[AI-ML , Intern](https://www.linkedin.com/company/jol-energy/posts/?feedView=all)' 
@@ -81,6 +60,29 @@ cv:
       #     - 'Developed a real-time facial expression analyzer in Python using OpenCV to capture and process live webcam video.'
       #     - 'Integrated a Hugging Face (PyTorch) model to perform face detection and emotion classification, achieving real-time inference.'
       #     - 'Engineered an UI to overlay bounding boxes, label emotions, confidence scores, and controls to save frames and verbose logging.'
+
+    projects:
+        - name: '[WikiMind: End-to-End Advanced Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)'
+          start_date: 2026-06
+          end_date: present
+          location:
+          summary: 
+            # Engineered a production-grade Agentic Hybrid RAG pipeline and Knowledge Graph engine, utilizing advanced retrieval strategies and guardrails for secure, high-accuracy AI workflows.
+          highlights:
+            - 'Boosted Recall@K by **30%** across **6.8M** articles (**21GB+**) via LangGraph Hybrid RAG (Dense + BM25 + Rerank).'
+            - 'Reduced staleness to **<5 min** & boosted query accuracy by **25%** using Redis Knowledge Graphs & spaCy.'
+            - 'Elevated answer accuracy to **88%** at **<800ms** latency by tuning Self-RAG state machines & NeMo.'
+    
+        - name: '[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)'
+          start_date: 2026-01
+          end_date: present
+          location:
+          summary: 
+            # Architected a high-performance CLI tool to organize and deduplicate massive media archives using Python and Rust.
+          highlights:
+            - 'Accelerated deduplication by **10×** (**1,000+** images/s) & cut storage by **81%** via Rust pHash (PyO3).'
+            - 'Integrated Google Drive sync across **64** REST API endpoints via OAuth2 and a **3-stage** Docker build.'
+            - 'Automated atomic rollback for **50+** batch operations across **14** sessions using journaled SQLite.'
     Awards:
       - name: '[Winner - Roboverse Ideathon 2025, IEEE Robotics and Automation Society, VIT, Vellore](https://www.linkedin.com/in/jayacharan-r/details/honors/)'
         # summary: 
@@ -93,13 +95,13 @@ cv:
       - label: Programming & Frameworks
         details: Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
       - label: AI/ML Frameworks
-        details: PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+        details: PyTorch, LangChain, Langfuse, Retrieval-Augmented Generation (RAG), Large Language Models (LLM) Observability, LLM Guardrails, Quantization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
       # - label: Operating System
         # details: 'Arch Linux, Windows'
       - label: Software
         details: 'SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux'
-      - label: Language
-        details: 'English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)'
+      - label: Soft Skills
+        details: 'Problem Solving, Team Collaboration, Adaptability, Time Management, Critical Thinking'
       
     Certifications:
       - '**[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)** #h(1fr) Dec 2025'
@@ -168,5 +170,5 @@ locale:
   years: years
   present: present
 rendercv_settings:
-  date: '2026-07-01'
+  # date: '2026-07-01'
   bold_keywords: []

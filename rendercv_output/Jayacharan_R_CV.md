@@ -21,32 +21,9 @@
 # <<section_title>>
 ## **Vellore Institute Of Technology**, *B.Tech* in *Computer Science (Data Science)* -- *Vellore* | **CGPA: 9.27**July 2023 – present
 
-**Achyuta Public School, CBSE**, *Highschool in Bio-Mat* -- *Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%** #h(1fr) June 2017 – Apr 2023
 
 
-
-# <<section_title>>
-## **[WikiMind: End-to-End Advanced Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)**
-
-June 2026 – present
-
-- Boosted Recall@K by **30%** across **6.8M** articles (**21GB+**) via LangGraph Hybrid RAG (Dense + BM25 + Rerank).
-
-- Reduced staleness to **<5 min** & boosted query accuracy by **25%** using Redis Knowledge Graphs & spaCy.
-
-- Elevated answer accuracy to **88%** at **<800ms** latency by tuning Self-RAG state machines & NeMo.
-
-
-
-## **[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)**
-
-Jan 2026 – present
-
-- Accelerated deduplication by **10× times** (**1,000+** images/s) & cut storage by **81%** via Rust pHash (PyO3).
-
-- Integrated Google Drive sync across **64** REST API endpoints via OAuth2 and a **3-stage** Docker build.
-
-- Automated atomic rollback for **50+** batch operations across **14** sessions using journaled SQLite.
+## **Achyuta Public School, CBSE**, *High School* in *Bio-Mat* -- *Dindigul, TN* | **AISSCE: 89.6%, AISSE: 98%**June 2017 – Apr 2023
 
 
 
@@ -67,11 +44,36 @@ June 2026 – July 2026
 
 May 2025 – July 2025
 
-- Delivered **2** SAP Analytics Cloud dashboards (**20+** visuals) via EDA, cleaning, live Google Drive sync
+- Delivered **2** SAP Analytics Cloud dashboards (**20+** visuals) via Exploratory Data Analysis (EDA), cleaning, live Google Drive sync
 
-- Strengthened insights via **3** predictive models (regression, classification, time-series) & dimension calcs
+- Strengthened insights via **3** predictive models (regression, classification, time-series) & dimensional modeling
 
 - Resolved lat-long ID conflicts, boosting geo-mapping accuracy across **210** countries in SAP Analytics Cloud
+
+
+
+# <<section_title>>
+## **[WikiMind: End-to-End Advanced Agentic RAG & Knowledge Engine](https://github.com/JayacharanR/WikiMind-End-to-End-Hybrid-RAG-Pipeline)**
+
+June 2026 – present
+
+- Boosted Recall@K by **30%** across **6.8M** articles (**21GB+**) via LangGraph Hybrid RAG (Dense + BM25 + Rerank).
+
+- Reduced staleness to **<5 min** & boosted query accuracy by **25%** using Redis Knowledge Graphs & spaCy.
+
+- Elevated answer accuracy to **88%** at **<800ms** latency by tuning Self-RAG state machines & NeMo.
+
+
+
+## **[Clean-Backup: Intelligent Media Automation & Cloud Sync Engine](https://github.com/JayacharanR/Clean-Backup)**
+
+Jan 2026 – present
+
+- Accelerated deduplication by **10×** (**1,000+** images/s) & cut storage by **81%** via Rust pHash (PyO3).
+
+- Integrated Google Drive sync across **64** REST API endpoints via OAuth2 and a **3-stage** Docker build.
+
+- Automated atomic rollback for **50+** batch operations across **14** sessions using journaled SQLite.
 
 
 
@@ -89,11 +91,11 @@ Jan 2025
 # <<section_title>>
 **Programming & Frameworks:** Python, Java, C, C++, Bash, YAML, HTML, CSS, JS, Pillow, FFmpeg, Tkinter
 
-**AI/ML Frameworks:** PyTorch, LangChain, Langfuse, RAG, LLM Observability, LLM Guardrails, Quntization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
+**AI/ML Frameworks:** PyTorch, LangChain, Langfuse, Retrieval-Augmented Generation (RAG), Large Language Models (LLM) Observability, LLM Guardrails, Quantization, Fine-tuning, HuggingFace Embeddings, ONNX Runtime, Qdrant (Vector DB), Redis, NetworkX (Knowledge Graphs), Reciprocal Rank Fusion (RRF), Cross-Encoder Reranking, NVIDIA NeMo Guardrails
 
 **Software:** SAP Analytics Cloud, Git Version Control, AWS Architecture, Docker Deployment, Arch Linux
 
-**Language:** English (Professional proficiency), Tamil (Native proficiency), Japanese & Hindi (Limited proficiency)
+**Soft Skills:** Problem Solving, Team Collaboration, Adaptability, Time Management, Critical Thinking
 
 # <<section_title>>
 **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8b2899fa-690d-43d3-9dfb-91a6b85e021f/public_url)** #h(1fr) Dec 2025
